@@ -64,7 +64,7 @@ class App extends Component {
       <>
         <Notifications
           listNotifications={listNotifications}
-          displayDrawer={displayDrawer}
+          displayDrawer={this.state.displayDrawer}
           handleDisplayDrawer={this.handleDisplayDrawer}
           handleHideDrawer={this.handleHideDrawer}
         />
